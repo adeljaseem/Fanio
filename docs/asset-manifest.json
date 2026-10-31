@@ -1,0 +1,47 @@
+[
+  {
+    "file": "assets/brand/fanio-lockup-dark.svg",
+    "source": "public/brand/fanio-lockup-dark.svg",
+    "sha256": "860b87d1b2985601a197e37e0b7e790a56421a2d1564002192327ab934a2702b"
+  },
+  {
+    "file": "assets/brand/fanio-lockup-light.svg",
+    "source": "public/brand/fanio-lockup-light.svg",
+    "sha256": "d323e54fac08ec1a45955359ec844898ed211a9b2dfa3fdfd3035c9445c5575e"
+  },
+  {
+    "file": "assets/brand/fanio-symbol.svg",
+    "source": "public/brand/fanio-symbol.svg",
+    "sha256": "fd3a1d811af647348e5d7f361aa9f1a857ab0ea4af0c21e2f3c83555be4d850d"
+  },
+  {
+    "file": "assets/brand/fanio-vertical-lockup-dark.png",
+    "source": "public/brand/fanio-vertical-lockup-dark.png",
+    "sha256": "31313a9038bb6dc7783cc7a2b5d033950ca7d9122b5bd1819732ad98eb5ab9fa"
+  },
+  {
+    "file": "assets/brand/fanio-vertical-lockup-light.png",
+    "source": "public/brand/fanio-vertical-lockup-light.png",
+    "sha256": "fcdd35ed4302bd9c0069159ca4cff383bbaa9ae62b89b6c6568792b267080d66"
+  },
+  {
+    "file": "assets/brand/fanio-og-1200x630.png",
+    "source": "public/brand/fanio-og-1200x630.png",
+    "sha256": "a285c0bc6ad38719c4d28b7585dfff638a281bfb488613d6ab3e3e0827f67e26"
+  },
+  {
+    "file": "assets/brand/fanio-icon-192.png",
+    "source": "public/icons/icon-192.png",
+    "sha256": "4ec490af21fec33f714348f4f86012a8b38c387f3a87cf82d9f54391fb3c1fa3"
+  },
+  {
+    "file": "assets/brand/fanio-wordmark-dark.svg",
+    "source": "public/brand/fanio-wordmark-dark.svg",
+    "sha256": "d6681ff02eb0b0a373332336b28646f7d98dc1ff0eb0d89f6f8257edd1f2b5a3"
+  },
+  {
+    "file": "assets/brand/fanio-wordmark-light.svg",
+    "source": "public/brand/fanio-wordmark-light.svg",
+    "sha256": "7b89fd1793a79c88641a4385884461d979e32ee344e7080378824df12e5e11ae"
+  }
+]

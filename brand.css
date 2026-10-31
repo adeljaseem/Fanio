@@ -1,0 +1,213 @@
+/* Active light/dark tokens copied verbatim from the supplied app's
+ * src/styles/fanam-theme.css. See docs/BRANDING.md for provenance. */
+:root,
+[data-theme="light"] {
+  color-scheme: light;
+
+  --brand-primary: #b88931;
+  --brand-primary-dark: #93691f;
+  --brand-primary-soft: rgba(184, 137, 49, 0.105);
+  --brand-secondary: #6b7280;
+  --brand-teal: #4b5563;
+  --brand-on-primary: #171a20;
+
+  --bg-base: #f7f5f0;
+  --bg-surface: #fffefa;
+  --bg-elevated: #f1eee7;
+  --bg-card: #fffefa;
+  --bg-raised: #e9e5dc;
+
+  --card-bg: rgba(255, 254, 250, 0.975);
+  --card-border: rgba(32, 36, 44, 0.09);
+  --drawer-bg: #fffefa;
+  --sheet-bg: rgba(255, 254, 250, 0.99);
+  --header-bg: rgba(247, 245, 240, 0.88);
+  --header-border: rgba(32, 36, 44, 0.085);
+
+  --blob-1: rgba(184, 137, 49, 0.10);
+  --blob-2: rgba(76, 84, 96, 0.055);
+
+  --border: rgba(32, 36, 44, 0.06);
+  --border-md: rgba(32, 36, 44, 0.11);
+  --border-strong: rgba(32, 36, 44, 0.20);
+  --divider: rgba(32, 36, 44, 0.08);
+  --overlay: rgba(16, 18, 22, 0.54);
+
+  --teal: #a87928;
+  --teal-dark: #88601d;
+  --teal-dim: rgba(184, 137, 49, 0.11);
+  --teal-border: rgba(184, 137, 49, 0.27);
+  --teal-glow: rgba(184, 137, 49, 0.19);
+
+  --accent-1: #d5ad58;
+  --accent-2: #a97525;
+  --accent-glow: rgba(169, 117, 37, 0.22);
+
+  --azure: #596579;
+  --azure-dim: rgba(89, 101, 121, 0.09);
+  --azure-border: rgba(89, 101, 121, 0.21);
+  --rose: #c95c5c;
+  --rose-dim: rgba(201, 92, 92, 0.09);
+  --rose-border: rgba(201, 92, 92, 0.22);
+  --gold: #b88931;
+  --gold-dim: rgba(184, 137, 49, 0.10);
+  --gold-border: rgba(184, 137, 49, 0.25);
+  --violet: #776d87;
+  --violet-dim: rgba(119, 109, 135, 0.09);
+  --mint: #2e936a;
+  --mint-dim: rgba(46, 147, 106, 0.09);
+  --mint-border: rgba(46, 147, 106, 0.22);
+
+  --ink-1: #20242c;
+  --ink-2: #424852;
+  --ink-3: #6b7280;
+  --ink-4: #969ba4;
+  --ink-ghost: #c9c7c1;
+  --ink-primary: var(--ink-1);
+  --ink-secondary: var(--ink-2);
+  --ink-tertiary: var(--ink-3);
+
+  --coral: var(--rose);
+  --amber: var(--gold);
+  --sage: var(--mint);
+  --sage-dim: var(--mint-dim);
+  --periwinkle: var(--azure);
+  --gold-glow: rgba(184, 137, 49, 0.16);
+
+  --nav-inactive: #7b8088;
+  --btn-ghost-bg: rgba(32, 36, 44, 0.045);
+  --btn-ghost-border: rgba(32, 36, 44, 0.085);
+  --btn-ghost-hover: rgba(32, 36, 44, 0.09);
+  --icon-bg: rgba(32, 36, 44, 0.05);
+  --row-hover: rgba(184, 137, 49, 0.04);
+  --toggle-off: rgba(32, 36, 44, 0.16);
+  --handle: rgba(32, 36, 44, 0.14);
+
+  --shadow-teal: 0 12px 30px rgba(169, 117, 37, 0.20);
+  --shadow-card: 0 1px 2px rgba(32, 36, 44, 0.025), 0 12px 30px rgba(32, 36, 44, 0.065);
+  --shadow-soft: 0 9px 26px rgba(32, 36, 44, 0.08);
+  --shadow-azure: 0 8px 22px rgba(89, 101, 121, 0.14);
+
+  --scrollbar-thumb: rgba(32, 36, 44, 0.16);
+  --glass-fill: rgba(32, 36, 44, 0.025);
+  --glass-fill-md: rgba(32, 36, 44, 0.05);
+  --rim: rgba(32, 36, 44, 0.055);
+  --rim-medium: rgba(32, 36, 44, 0.11);
+  --rim-soft: rgba(32, 36, 44, 0.07);
+
+  --brand-midnight: #171a20;
+  --brand-coal: #20242c;
+  --brand-gold: #b88931;
+  --brand-gold-light: #d9b96e;
+  --brand-bronze: #8b672b;
+  --brand-parchment: #fffefa;
+  --brand-on-gold: #171a20;
+}
+
+[data-theme="dark"] {
+  color-scheme: dark;
+
+  --brand-primary: #d9b96e;
+  --brand-primary-dark: #c79d48;
+  --brand-primary-soft: rgba(217, 185, 110, 0.13);
+  --brand-secondary: #a7adb7;
+  --brand-teal: #b9bec6;
+  --brand-on-primary: #171a20;
+
+  --bg-base: #101216;
+  --bg-surface: #15181d;
+  --bg-elevated: #1b1f25;
+  --bg-card: #181b20;
+  --bg-raised: #22262d;
+
+  --card-bg: rgba(24, 27, 32, 0.965);
+  --card-border: rgba(237, 232, 220, 0.12);
+  --drawer-bg: #13161a;
+  --sheet-bg: rgba(20, 23, 28, 0.99);
+  --header-bg: rgba(16, 18, 22, 0.84);
+  --header-border: rgba(237, 232, 220, 0.11);
+
+  --blob-1: rgba(217, 185, 110, 0.12);
+  --blob-2: rgba(148, 154, 164, 0.065);
+
+  --border: rgba(237, 232, 220, 0.08);
+  --border-md: rgba(237, 232, 220, 0.14);
+  --border-strong: rgba(237, 232, 220, 0.25);
+  --divider: rgba(237, 232, 220, 0.10);
+  --overlay: rgba(3, 4, 6, 0.76);
+
+  --teal: #d9b96e;
+  --teal-dark: #c79d48;
+  --teal-dim: rgba(217, 185, 110, 0.13);
+  --teal-border: rgba(217, 185, 110, 0.30);
+  --teal-glow: rgba(217, 185, 110, 0.24);
+
+  --accent-1: #e2c985;
+  --accent-2: #b48230;
+  --accent-glow: rgba(217, 185, 110, 0.26);
+
+  --azure: #aab4c4;
+  --azure-dim: rgba(170, 180, 196, 0.12);
+  --azure-border: rgba(170, 180, 196, 0.25);
+  --rose: #ef8181;
+  --rose-dim: rgba(239, 129, 129, 0.12);
+  --rose-border: rgba(239, 129, 129, 0.26);
+  --gold: #d9b96e;
+  --gold-dim: rgba(217, 185, 110, 0.13);
+  --gold-border: rgba(217, 185, 110, 0.29);
+  --violet: #c1b6cf;
+  --violet-dim: rgba(193, 182, 207, 0.12);
+  --mint: #58c394;
+  --mint-dim: rgba(88, 195, 148, 0.12);
+  --mint-border: rgba(88, 195, 148, 0.26);
+
+  --ink-1: #f5f3ee;
+  --ink-2: #d8d4ca;
+  --ink-3: #aaa69d;
+  --ink-4: #777b83;
+  --ink-ghost: #4c5058;
+  --ink-primary: var(--ink-1);
+  --ink-secondary: var(--ink-2);
+  --ink-tertiary: var(--ink-3);
+
+  --coral: var(--rose);
+  --amber: var(--gold);
+  --sage: var(--mint);
+  --sage-dim: var(--mint-dim);
+  --periwinkle: var(--azure);
+  --gold-glow: rgba(217, 185, 110, 0.20);
+
+  --nav-inactive: rgba(216, 212, 202, 0.58);
+  --btn-ghost-bg: rgba(237, 232, 220, 0.075);
+  --btn-ghost-border: rgba(237, 232, 220, 0.12);
+  --btn-ghost-hover: rgba(237, 232, 220, 0.14);
+  --icon-bg: rgba(237, 232, 220, 0.085);
+  --row-hover: rgba(217, 185, 110, 0.07);
+  --toggle-off: rgba(237, 232, 220, 0.20);
+  --handle: rgba(237, 232, 220, 0.21);
+
+  --shadow-teal: 0 14px 34px rgba(181, 131, 47, 0.26);
+  --shadow-card: 0 1px 1px rgba(255, 255, 255, 0.018), 0 20px 44px rgba(0, 0, 0, 0.25);
+  --shadow-soft: 0 12px 32px rgba(0, 0, 0, 0.24);
+  --shadow-azure: 0 10px 26px rgba(112, 122, 139, 0.18);
+
+  --scrollbar-thumb: rgba(237, 232, 220, 0.18);
+  --glass-fill: rgba(237, 232, 220, 0.05);
+  --glass-fill-md: rgba(237, 232, 220, 0.08);
+  --rim: rgba(237, 232, 220, 0.07);
+  --rim-medium: rgba(237, 232, 220, 0.14);
+  --rim-soft: rgba(237, 232, 220, 0.10);
+
+  --brand-midnight: #101216;
+  --brand-coal: #171a20;
+  --brand-gold: #d9b96e;
+  --brand-gold-light: #ead59c;
+  --brand-bronze: #b58a42;
+  --brand-parchment: #f5f3ee;
+  --brand-on-gold: #171a20;
+}
+
+
+:root {
+  --font-sans: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
